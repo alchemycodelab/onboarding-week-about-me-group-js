@@ -1,3 +1,5 @@
+///This is the date file. We create an array and add objects to the array. A oject needs a key and a value. A colon is used to separate the key and value. Between each object we have a comma to separate the objects.
+
 export const people = [
     { 
         id: 1,
