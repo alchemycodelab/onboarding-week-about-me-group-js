@@ -11,7 +11,7 @@ export const people = [
         name: 'Jane',
         age: 30,
         bio: 'Jane is a senior software engineer at Apple.',
-        hobbies: ['knitting', 'sewing', 'coding']
+        hobbies: ['Knitting', 'Sewing', 'Coding']
     },
     {
         id: 3,

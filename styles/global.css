@@ -33,9 +33,7 @@ header {
     padding: 0 var(--gutter);
 }
 
-main {
-    overflow-y: auto;
-}
+
 
 
 footer {
