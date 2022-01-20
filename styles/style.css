@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    border: box-sizing;
+}
 body {
     /* feel free to update these css variables for a quick theme */
     
@@ -78,7 +81,107 @@ header img {
 p {
     margin: var(--gutter);
 }
-  
+
+div{
+    border: beige 1px solid;
+}
+/* add the name class to change style with every name */
+
+.name{
+    font-size: 1.5rem;
+    font-weight: bold;
+     align-content: center;
+}
+.age{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 30px;
+    padding: 10px;
+}
+.bio{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 30px;
+    padding: 30px;
+}
+/* Person Jane Styling below */
+.Jane{
+    border: pink 4px outset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: burlywood;
+    color: rgb(119, 56, 67);
+    margin: 30px;
+    padding: 30px;
+}
+/* Here we add style to all of Jane's hobbies/li by doing this we only style whe jane is selected on */
+.Jane .hobbies{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    border: palevioletred 2px dotted;
+}
+.Jane li{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    border: palevioletred 2px dotted;
+}
+/* Jane end styling */
+
+/* Here we add style to all of John's hobbies/li by doing this we only style whe john is selected on */
+
+.John{
+    border: forestgreen 5px dotted;
+    background-color: ivory;
+    color: forestgreen
+}
+.John li{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    border: forestgreen 2px dotted;
+}
+/* John end styling */
+
+/* Here we add style to all of Bob's hobbies/li by doing this we only style whe bob is selected on */
+
+.Bob{
+    border: teal 5px inset;
+    background-color: rgb(196, 196, 83);
+    color: teal
+}
+.Bob li{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    border: teal 2px dotted;
+}
+/* Bob end styling */
+
+/* Here we add style to all of Mary's hobbies/li by doing this we only style whe Mary is selected on */
+
+.Mary{
+    border: fuchsia 5px solid;
+    background-color: rgb(29, 69, 107);
+    color: fuchsia
+}
+.Mary li{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    border: fuchsia 2px dotted;
+}
+/* Mary end styling */
 footer {
     position: fixed;
     width: 100%;
